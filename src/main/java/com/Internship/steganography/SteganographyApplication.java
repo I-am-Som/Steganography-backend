@@ -13,7 +13,7 @@ public class SteganographyApplication {
 			System.out.println("✅ OpenCV loaded successfully from: " + opencvPath);
 		} catch (UnsatisfiedLinkError e) {
 			System.err.println("❌ Failed to load OpenCV: " + e.getMessage());
-		}3
+		}
 	}
 
 
